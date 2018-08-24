@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_itchat4j" default="compile.module.itchat4j">
+  <dirname property="module.itchat4j.basedir" file="${ant.file.module_itchat4j}"/>
+  
+  <property name="module.jdk.home.itchat4j" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.itchat4j" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.itchat4j" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.itchat4j" value="-encoding UTF-8 -source 8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="itchat4j.output.dir" value="${module.itchat4j.basedir}/target/classes"/>
+  <property name="itchat4j.testoutput.dir" value="${module.itchat4j.basedir}/target/test-classes"/>
+  
+  <path id="itchat4j.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="itchat4j.module.production.classpath">
+    <path refid="${module.jdk.classpath.itchat4j}"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.5.3.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.4.6.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.9.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpmime:4.5.classpath"/>
+    <path refid="library.maven:_com.alibaba:fastjson:1.2.31.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-lang3:3.0.classpath"/>
+    <path refid="library.maven:_com.vdurmont:emoji-java:3.2.0.classpath"/>
+    <path refid="library.maven:_org.json:json:20140107.classpath"/>
+    <path refid="library.maven:_javax.activation:activation:1.1.1.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.6.6.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.6.6.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.16.classpath"/>
+    <path refid="library.maven:_com.squareup.okhttp3:okhttp:3.8.0.classpath"/>
+    <path refid="library.maven:_com.squareup.okio:okio:1.13.0.classpath"/>
+  </path>
+  
+  <path id="itchat4j.runtime.production.module.classpath">
+    <pathelement location="${itchat4j.output.dir}"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.5.3.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.4.6.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.9.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpmime:4.5.classpath"/>
+    <path refid="library.maven:_com.alibaba:fastjson:1.2.31.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-lang3:3.0.classpath"/>
+    <path refid="library.maven:_com.vdurmont:emoji-java:3.2.0.classpath"/>
+    <path refid="library.maven:_org.json:json:20140107.classpath"/>
+    <path refid="library.maven:_javax.activation:activation:1.1.1.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.6.6.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.6.6.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.16.classpath"/>
+    <path refid="library.maven:_com.squareup.okhttp3:okhttp:3.8.0.classpath"/>
+    <path refid="library.maven:_com.squareup.okio:okio:1.13.0.classpath"/>
+  </path>
+  
+  <path id="itchat4j.module.classpath">
+    <path refid="${module.jdk.classpath.itchat4j}"/>
+    <pathelement location="${itchat4j.output.dir}"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.5.3.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.4.6.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.9.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpmime:4.5.classpath"/>
+    <path refid="library.maven:_com.alibaba:fastjson:1.2.31.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-lang3:3.0.classpath"/>
+    <path refid="library.maven:_com.vdurmont:emoji-java:3.2.0.classpath"/>
+    <path refid="library.maven:_org.json:json:20140107.classpath"/>
+    <path refid="library.maven:_javax.activation:activation:1.1.1.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.6.6.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.6.6.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.16.classpath"/>
+    <path refid="library.maven:_com.squareup.okhttp3:okhttp:3.8.0.classpath"/>
+    <path refid="library.maven:_com.squareup.okio:okio:1.13.0.classpath"/>
+  </path>
+  
+  <path id="itchat4j.runtime.module.classpath">
+    <pathelement location="${itchat4j.testoutput.dir}"/>
+    <pathelement location="${itchat4j.output.dir}"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpclient:4.5.3.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpcore:4.4.6.classpath"/>
+    <path refid="library.maven:_commons-logging:commons-logging:1.2.classpath"/>
+    <path refid="library.maven:_commons-codec:commons-codec:1.9.classpath"/>
+    <path refid="library.maven:_org.apache.httpcomponents:httpmime:4.5.classpath"/>
+    <path refid="library.maven:_com.alibaba:fastjson:1.2.31.classpath"/>
+    <path refid="library.maven:_org.apache.commons:commons-lang3:3.0.classpath"/>
+    <path refid="library.maven:_com.vdurmont:emoji-java:3.2.0.classpath"/>
+    <path refid="library.maven:_org.json:json:20140107.classpath"/>
+    <path refid="library.maven:_javax.activation:activation:1.1.1.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.6.6.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-log4j12:1.6.6.classpath"/>
+    <path refid="library.maven:_log4j:log4j:1.2.16.classpath"/>
+    <path refid="library.maven:_com.squareup.okhttp3:okhttp:3.8.0.classpath"/>
+    <path refid="library.maven:_com.squareup.okio:okio:1.13.0.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.itchat4j">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.itchat4j">
+    <patternset refid="excluded.from.module.itchat4j"/>
+  </patternset>
+  
+  <path id="itchat4j.module.sourcepath">
+    <dirset dir="${module.itchat4j.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+    </dirset>
+  </path>
+  
+  <path id="itchat4j.module.test.sourcepath">
+    <dirset dir="${module.itchat4j.basedir}">
+      <include name="src/test/java"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.itchat4j" depends="compile.module.itchat4j.production,compile.module.itchat4j.tests" description="Compile module itchat4j"/>
+  
+  <target name="compile.module.itchat4j.production" depends="register.custom.compilers" description="Compile module itchat4j; production classes">
+    <mkdir dir="${itchat4j.output.dir}"/>
+    <javac2 destdir="${itchat4j.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.itchat4j}/javac">
+      <compilerarg line="${compiler.args.itchat4j}"/>
+      <bootclasspath refid="itchat4j.module.bootclasspath"/>
+      <classpath refid="itchat4j.module.production.classpath"/>
+      <src refid="itchat4j.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.itchat4j"/>
+    </javac2>
+    
+    <copy todir="${itchat4j.output.dir}">
+      <fileset dir="${module.itchat4j.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.itchat4j.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.itchat4j.tests" depends="register.custom.compilers,compile.module.itchat4j.production" description="compile module itchat4j; test classes" unless="skip.tests">
+    <mkdir dir="${itchat4j.testoutput.dir}"/>
+    <javac2 destdir="${itchat4j.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.itchat4j}/javac">
+      <compilerarg line="${compiler.args.itchat4j}"/>
+      <bootclasspath refid="itchat4j.module.bootclasspath"/>
+      <classpath refid="itchat4j.module.classpath"/>
+      <src refid="itchat4j.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.itchat4j"/>
+    </javac2>
+    
+    <copy todir="${itchat4j.testoutput.dir}">
+      <fileset dir="${module.itchat4j.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.itchat4j" description="cleanup module">
+    <delete dir="${itchat4j.output.dir}"/>
+    <delete dir="${itchat4j.testoutput.dir}"/>
+  </target>
+</project>

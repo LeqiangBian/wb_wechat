@@ -1,0 +1,892 @@
+#空消息格式  ॣ ॣ ॣ
+
+{
+	"ModContactList": [],
+	"DelContactCount": 0,
+	"AddMsgCount": 0,
+	"ContinueFlag": 0,
+	"SKey": "",
+	"Profile": {
+		"Status": 0,
+		"UserName": {
+			"Buff": ""
+		},
+		"HeadImgUrl": "",
+		"Sex": 0,
+		"PersonalCard": 0,
+		"NickName": {
+			"Buff": ""
+		},
+		"BindEmail": {
+			"Buff": ""
+		},
+		"BitFlag": 0,
+		"Alias": "",
+		"Signature": "",
+		"BindUin": 0,
+		"HeadImgUpdateFlag": 0,
+		"BindMobile": {
+			"Buff": ""
+		}
+	},
+	"BaseResponse": {
+		"Ret": 0,
+		"ErrMsg": ""
+	},
+	"DelContactList": [],
+	"ModChatRoomMemberList": [],
+	"ModContactCount": 0,
+	"ModChatRoomMemberCount": 0,
+	"SyncCheckKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772356,
+			"Key": 2
+		}, {
+			"Val": 684772326,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534214908,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	},
+	"AddMsgList": [],
+	"SyncKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772356,
+			"Key": 2
+		}, {
+			"Val": 684772326,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534214908,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	}
+}
+
+
+#正常消息格式
+{
+	"ModContactList": [],
+	"DelContactCount": 0,
+	"AddMsgCount": 1,
+	"ContinueFlag": 0,
+	"SKey": "",
+	"Profile": {
+		"Status": 0,
+		"UserName": {
+			"Buff": ""
+		},
+		"HeadImgUrl": "",
+		"Sex": 0,
+		"PersonalCard": 0,
+		"NickName": {
+			"Buff": ""
+		},
+		"BindEmail": {
+			"Buff": ""
+		},
+		"BitFlag": 0,
+		"Alias": "",
+		"Signature": "",
+		"BindUin": 0,
+		"HeadImgUpdateFlag": 0,
+		"BindMobile": {
+			"Buff": ""
+		}
+	},
+	"BaseResponse": {
+		"Ret": 0,
+		"ErrMsg": ""
+	},
+	"DelContactList": [],
+	"ModChatRoomMemberList": [],
+	"ModContactCount": 0,
+	"ModChatRoomMemberCount": 0,
+	"SyncCheckKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772433,
+			"Key": 2
+		}, {
+			"Val": 684772381,
+			"Key": 3
+		}, {
+			"Val": 684772417,
+			"Key": 11
+		}, {
+			"Val": 1534217678,
+			"Key": 201
+		}, {
+			"Val": 1534217206,
+			"Key": 203
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 8
+	},
+	"AddMsgList": [{
+		"SubMsgType": 0,
+		"VoiceLength": 0,
+		"FileName": "",
+		"ImgHeight": 0,
+		"ToUserName": "@3816d6c54b94d676151844161b1f6de1b7f44ad4b79766842f04dfbfe1fba610",
+		"HasProductId": 0,
+		"ImgStatus": 1,
+		"Url": "",
+		"ImgWidth": 0,
+		"ForwardFlag": 0,
+		"Status": 3,
+		"Ticket": "",
+		"RecommendInfo": {
+			"Ticket": "",
+			"UserName": "",
+			"Sex": 0,
+			"AttrStatus": 0,
+			"City": "",
+			"NickName": "",
+			"Scene": 0,
+			"Province": "",
+			"Content": "",
+			"Alias": "",
+			"Signature": "",
+			"OpCode": 0,
+			"QQNum": 0,
+			"VerifyFlag": 0
+		},
+		"CreateTime": 1534217678,
+		"NewMsgId": 1778992929883978096,
+		"MsgType": 1,
+		"EncryFileName": "",
+		"MsgId": "1778992929883978096",
+		"StatusNotifyCode": 0,
+		"AppInfo": {
+			"Type": 0,
+			"AppID": ""
+		},
+		"AppMsgType": 0,
+		"PlayLength": 0,
+		"MediaId": "",
+		"Content": "风风光光个永远永远永远",
+		"StatusNotifyUserName": "",
+		"FromUserName": "@0b8345d07d6a48fe12846bc43f27f2c456404ffa565ca2a66342e6130a91422c",
+		"OriContent": "",
+		"FileSize": ""
+	}],
+	"SyncKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772433,
+			"Key": 2
+		}, {
+			"Val": 684772381,
+			"Key": 3
+		}, {
+			"Val": 684772417,
+			"Key": 11
+		}, {
+			"Val": 1534217678,
+			"Key": 201
+		}, {
+			"Val": 1534217206,
+			"Key": 203
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 8
+	}
+}
+
+
+#不是好友关系返回格式
+
+{
+	"ModContactList": [],
+	"DelContactCount": 0,
+	"AddMsgCount": 1,
+	"ContinueFlag": 0,
+	"SKey": "",
+	"Profile": {
+		"Status": 0,
+		"UserName": {
+			"Buff": ""
+		},
+		"HeadImgUrl": "",
+		"Sex": 0,
+		"PersonalCard": 0,
+		"NickName": {
+			"Buff": ""
+		},
+		"BindEmail": {
+			"Buff": ""
+		},
+		"BitFlag": 0,
+		"Alias": "",
+		"Signature": "",
+		"BindUin": 0,
+		"HeadImgUpdateFlag": 0,
+		"BindMobile": {
+			"Buff": ""
+		}
+	},
+	"BaseResponse": {
+		"Ret": 0,
+		"ErrMsg": ""
+	},
+	"DelContactList": [],
+	"ModChatRoomMemberList": [],
+	"ModContactCount": 0,
+	"ModChatRoomMemberCount": 0,
+	"SyncCheckKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772367,
+			"Key": 2
+		}, {
+			"Val": 684772326,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534214923,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	},
+	"AddMsgList": [{
+		"SubMsgType": 0,
+		"VoiceLength": 0,
+		"FileName": "",
+		"ImgHeight": 0,
+		"ToUserName": "@7896bb9098370130dd2d1f96cfe680a4eebe1b95f0eec2597e9bed87864536dd",
+		"HasProductId": 0,
+		"ImgStatus": 1,
+		"Url": "",
+		"ImgWidth": 0,
+		"ForwardFlag": 0,
+		"Status": 4,
+		"Ticket": "",
+		"RecommendInfo": {
+			"Ticket": "",
+			"UserName": "",
+			"Sex": 0,
+			"AttrStatus": 0,
+			"City": "",
+			"NickName": "",
+			"Scene": 0,
+			"Province": "",
+			"Content": "",
+			"Alias": "",
+			"Signature": "",
+			"OpCode": 0,
+			"QQNum": 0,
+			"VerifyFlag": 0
+		},
+		"CreateTime": 1534214923,
+		"NewMsgId": 7088838668232293071,
+		"MsgType": 10000,
+		"EncryFileName": "",
+		"MsgId": "7088838668232293071",
+		"StatusNotifyCode": 0,
+		"AppInfo": {
+			"Type": 0,
+			"AppID": ""
+		},
+		"AppMsgType": 0,
+		"PlayLength": 0,
+		"MediaId": "",
+		"Content": "金花顺开启了朋友验证，你还不是他（她）朋友。请先发送朋友验证请求，对方验证通过后，才能聊天。&lt;a href=\"weixin://findfriend/verifycontact\"&gt;发送朋友验证&lt;/a&gt;",
+		"StatusNotifyUserName": "",
+		"FromUserName": "@b9832a389676eb845e8cb9dda6cec51f5210cfeb1033a75dda1ac613bc54099b",
+		"OriContent": "",
+		"FileSize": ""
+	}],
+	"SyncKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772367,
+			"Key": 2
+		}, {
+			"Val": 684772326,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534214923,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	}
+}
+
+#拉黑格式
+
+{
+	"ModContactList": [],
+	"DelContactCount": 0,
+	"AddMsgCount": 1,
+	"ContinueFlag": 0,
+	"SKey": "",
+	"Profile": {
+		"Status": 0,
+		"UserName": {
+			"Buff": ""
+		},
+		"HeadImgUrl": "",
+		"Sex": 0,
+		"PersonalCard": 0,
+		"NickName": {
+			"Buff": ""
+		},
+		"BindEmail": {
+			"Buff": ""
+		},
+		"BitFlag": 0,
+		"Alias": "",
+		"Signature": "",
+		"BindUin": 0,
+		"HeadImgUpdateFlag": 0,
+		"BindMobile": {
+			"Buff": ""
+		}
+	},
+	"BaseResponse": {
+		"Ret": 0,
+		"ErrMsg": ""
+	},
+	"DelContactList": [],
+	"ModChatRoomMemberList": [],
+	"ModContactCount": 0,
+	"ModChatRoomMemberCount": 0,
+	"SyncCheckKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772368,
+			"Key": 2
+		}, {
+			"Val": 684772326,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534214925,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	},
+	"AddMsgList": [{
+		"SubMsgType": 0,
+		"VoiceLength": 0,
+		"FileName": "",
+		"ImgHeight": 0,
+		"ToUserName": "@7896bb9098370130dd2d1f96cfe680a4eebe1b95f0eec2597e9bed87864536dd",
+		"HasProductId": 0,
+		"ImgStatus": 1,
+		"Url": "",
+		"ImgWidth": 0,
+		"ForwardFlag": 0,
+		"Status": 4,
+		"Ticket": "",
+		"RecommendInfo": {
+			"Ticket": "",
+			"UserName": "",
+			"Sex": 0,
+			"AttrStatus": 0,
+			"City": "",
+			"NickName": "",
+			"Scene": 0,
+			"Province": "",
+			"Content": "",
+			"Alias": "",
+			"Signature": "",
+			"OpCode": 0,
+			"QQNum": 0,
+			"VerifyFlag": 0
+		},
+		"CreateTime": 1534214925,
+		"NewMsgId": 3054702407148754231,
+		"MsgType": 10000,
+		"EncryFileName": "",
+		"MsgId": "3054702407148754231",
+		"StatusNotifyCode": 0,
+		"AppInfo": {
+			"Type": 0,
+			"AppID": ""
+		},
+		"AppMsgType": 0,
+		"PlayLength": 0,
+		"MediaId": "",
+		"Content": "消息已发出，但被对方拒收了。",
+		"StatusNotifyUserName": "",
+		"FromUserName": "@d2d27f33555472fc45a750c1cf98c83a6104a97360cc4282f61f2236e3786d6f",
+		"OriContent": "",
+		"FileSize": ""
+	}],
+	"SyncKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772368,
+			"Key": 2
+		}, {
+			"Val": 684772326,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534214925,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	}
+}
+2018 - 08 - 14 10: 48: 45, 171 INFO => 收到消息一条， 来自: @d2d27f33555472fc45a750c1cf98c83a6104a97360cc4282f61f2236e3786d6f
+2018 - 08 - 14 10: 49: 10, 241 INFO => {
+	"selector": "0",
+	"retcode": "0"
+}
+2018 - 08 - 14 10: 49: 10, 319 INFO => 内容: {
+	"ModContactList": [],
+	"DelContactCount": 0,
+	"AddMsgCount": 0,
+	"ContinueFlag": 0,
+	"SKey": "",
+	"Profile": {
+		"Status": 0,
+		"UserName": {
+			"Buff": ""
+		},
+		"HeadImgUrl": "",
+		"Sex": 0,
+		"PersonalCard": 0,
+		"NickName": {
+			"Buff": ""
+		},
+		"BindEmail": {
+			"Buff": ""
+		},
+		"BitFlag": 0,
+		"Alias": "",
+		"Signature": "",
+		"BindUin": 0,
+		"HeadImgUpdateFlag": 0,
+		"BindMobile": {
+			"Buff": ""
+		}
+	},
+	"BaseResponse": {
+		"Ret": 0,
+		"ErrMsg": ""
+	},
+	"DelContactList": [],
+	"ModChatRoomMemberList": [],
+	"ModContactCount": 0,
+	"ModChatRoomMemberCount": 0,
+	"SyncCheckKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772368,
+			"Key": 2
+		}, {
+			"Val": 684772326,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534214925,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	},
+	"AddMsgList": [],
+	"SyncKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772368,
+			"Key": 2
+		}, {
+			"Val": 684772326,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534214925,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	}
+}
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#点击进去/出去的接口:
+AddMsgList有值
+StatusNotifyCode :  2/5   进去/出去
+FromUserName:  哪个用户
+
+{
+	"ModContactList": [],
+	"DelContactCount": 0,
+	"AddMsgCount": 1,
+	"ContinueFlag": 0,
+	"SKey": "",
+	"Profile": {
+		"Status": 0,
+		"UserName": {
+			"Buff": ""
+		},
+		"HeadImgUrl": "",
+		"Sex": 0,
+		"PersonalCard": 0,
+		"NickName": {
+			"Buff": ""
+		},
+		"BindEmail": {
+			"Buff": ""
+		},
+		"BitFlag": 0,
+		"Alias": "",
+		"Signature": "",
+		"BindUin": 0,
+		"HeadImgUpdateFlag": 0,
+		"BindMobile": {
+			"Buff": ""
+		}
+	},
+	"BaseResponse": {
+		"Ret": 0,
+		"ErrMsg": ""
+	},
+	"DelContactList": [],
+	"ModChatRoomMemberList": [],
+	"ModContactCount": 0,
+	"ModChatRoomMemberCount": 0,
+	"SyncCheckKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772400,
+			"Key": 2
+		}, {
+			"Val": 684772381,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534216684,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	},
+	"AddMsgList": [{
+		"SubMsgType": 0,
+		"VoiceLength": 0,
+		"FileName": "",
+		"ImgHeight": 0,
+		"ToUserName": "@2247ce8f4cb27dc06d02cb70b14014c3",
+		"HasProductId": 0,
+		"ImgStatus": 1,
+		"Url": "",
+		"ImgWidth": 0,
+		"ForwardFlag": 0,
+		"Status": 3,
+		"Ticket": "",
+		"RecommendInfo": {
+			"Ticket": "",
+			"UserName": "",
+			"Sex": 0,
+			"AttrStatus": 0,
+			"City": "",
+			"NickName": "",
+			"Scene": 0,
+			"Province": "",
+			"Content": "",
+			"Alias": "",
+			"Signature": "",
+			"OpCode": 0,
+			"QQNum": 0,
+			"VerifyFlag": 0
+		},
+		"CreateTime": 1534216684,
+		"NewMsgId": 9098150665730504223,
+		"MsgType": 51,
+		"EncryFileName": "",
+		"MsgId": "9098150665730504223",
+		"StatusNotifyCode": 5,
+		"AppInfo": {
+			"Type": 0,
+			"AppID": ""
+		},
+		"AppMsgType": 0,
+		"PlayLength": 0,
+		"MediaId": "",
+		"Content": "",
+		"StatusNotifyUserName": "@2247ce8f4cb27dc06d02cb70b14014c3",
+		"FromUserName": "@0b8345d07d6a48fe12846bc43f27f2c456404ffa565ca2a66342e6130a91422c",
+		"OriContent": "",
+		"FileSize": ""
+	}],
+	"SyncKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772400,
+			"Key": 2
+		}, {
+			"Val": 684772381,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534216684,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	}
+}
+
+
+#发红包消息
+{
+	"ModContactList": [],
+	"DelContactCount": 0,
+	"AddMsgCount": 1,
+	"ContinueFlag": 0,
+	"SKey": "",
+	"Profile": {
+		"Status": 0,
+		"UserName": {
+			"Buff": ""
+		},
+		"HeadImgUrl": "",
+		"Sex": 0,
+		"PersonalCard": 0,
+		"NickName": {
+			"Buff": ""
+		},
+		"BindEmail": {
+			"Buff": ""
+		},
+		"BitFlag": 0,
+		"Alias": "",
+		"Signature": "",
+		"BindUin": 0,
+		"HeadImgUpdateFlag": 0,
+		"BindMobile": {
+			"Buff": ""
+		}
+	},
+	"BaseResponse": {
+		"Ret": 0,
+		"ErrMsg": ""
+	},
+	"DelContactList": [],
+	"ModChatRoomMemberList": [],
+	"ModContactCount": 0,
+	"ModChatRoomMemberCount": 0,
+	"SyncCheckKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772415,
+			"Key": 2
+		}, {
+			"Val": 684772381,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534217119,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	},
+	"AddMsgList": [{
+		"SubMsgType": 0,
+		"VoiceLength": 0,
+		"FileName": "",
+		"ImgHeight": 0,
+		"ToUserName": "@3816d6c54b94d676151844161b1f6de1b7f44ad4b79766842f04dfbfe1fba610",
+		"HasProductId": 0,
+		"ImgStatus": 1,
+		"Url": "",
+		"ImgWidth": 0,
+		"ForwardFlag": 0,
+		"Status": 3,
+		"Ticket": "",
+		"RecommendInfo": {
+			"Ticket": "",
+			"UserName": "",
+			"Sex": 0,
+			"AttrStatus": 0,
+			"City": "",
+			"NickName": "",
+			"Scene": 0,
+			"Province": "",
+			"Content": "",
+			"Alias": "",
+			"Signature": "",
+			"OpCode": 0,
+			"QQNum": 0,
+			"VerifyFlag": 0
+		},
+		"CreateTime": 1534217119,
+		"NewMsgId": 1680187726257189716,
+		"MsgType": 10000,
+		"EncryFileName": "",
+		"MsgId": "1680187726257189716",
+		"StatusNotifyCode": 0,
+		"AppInfo": {
+			"Type": 0,
+			"AppID": ""
+		},
+		"AppMsgType": 0,
+		"PlayLength": 0,
+		"MediaId": "",
+		"Content": "发出红包，请在手机上查看",
+		"StatusNotifyUserName": "",
+		"FromUserName": "@0b8345d07d6a48fe12846bc43f27f2c456404ffa565ca2a66342e6130a91422c",
+		"OriContent": "",
+		"FileSize": ""
+	}],
+	"SyncKey": {
+		"List": [{
+			"Val": 684772332,
+			"Key": 1
+		}, {
+			"Val": 684772415,
+			"Key": 2
+		}, {
+			"Val": 684772381,
+			"Key": 3
+		}, {
+			"Val": 684772236,
+			"Key": 11
+		}, {
+			"Val": 1534217119,
+			"Key": 201
+		}, {
+			"Val": 1534201322,
+			"Key": 1000
+		}, {
+			"Val": 1534201394,
+			"Key": 1001
+		}],
+		"Count": 7
+	}
+}
